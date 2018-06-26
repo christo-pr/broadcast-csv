@@ -2,6 +2,20 @@
 
 This is a simple node cli app that send an email to a list of user from a `.csv` file using [Sendgrid](https://sendgrid.com/)
 
+### installation
+
+```
+npm i -g broadcast-sendgrid-cli
+```
+
+after that you can run the following command on your terminal.
+
+```
+broadcast-sendgrid-cli
+```
+After that, you'll be prompt for some information about the sender, just fill the information and hit 'Enter'.
+
+
 ### local installation
 
 first clone the project and navigate to the project

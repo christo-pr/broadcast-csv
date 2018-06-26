@@ -1,16 +1,16 @@
 {
-  "name": "broadcast",
-  "version": "1.0.0",
+  "name": "broadcast-sendgrid-cli",
+  "version": "1.0.2",
   "description": "Simple CLI to send emails from a CVS file",
   "main": "index.js",
-  "bin" : {
-    "broadcast" : "./index.js"
+  "bin": {
+    "broadcast-sendgrid-cli": "./index.js"
   },
   "scripts": {
     "lint": "standard",
     "start": "node index.js"
   },
-  "author": "",
+  "author": "Christofer Flores",
   "license": "ISC",
   "dependencies": {
     "async": "^2.1.4",
@@ -18,10 +18,14 @@
     "commander": "^2.9.0",
     "csv": "^1.1.0",
     "inquirer": "^2.0.0",
-    "sendgrid": "^4.7.1"
+    "sendgrid": "^4.7.1",
+    "dotenv": "^6.0.0"
   },
   "devDependencies": {
-    "dotenv": "^6.0.0",
     "standard": "^11.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CrystalStream/broadcast-csv"
   }
 }
