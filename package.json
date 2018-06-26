@@ -1,0 +1,24 @@
+{
+  "name": "broadcast",
+  "version": "1.0.0",
+  "description": "Simple CLI to send emails from a CVS file",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.4",
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "csv": "^1.1.0",
+    "inquirer": "^2.0.0",
+    "sendgrid": "^4.7.1"
+  },
+  "devDependencies": {
+    "dotenv": "^6.0.0",
+    "standard": "^11.0.1"
+  }
+}
