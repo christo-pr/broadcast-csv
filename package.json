@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Simple CLI to send emails from a CVS file",
   "main": "index.js",
+  "bin" : {
+    "broadcast" : "./index.js"
+  },
   "scripts": {
     "lint": "standard",
     "start": "node index.js"
