@@ -1,5 +1,10 @@
 # Broadcast CLI
 
+> **IMPORTANT**
+> This plugin is dummy project! it doesn't have any intention to solve any problem at all!
+> I might be updating the plugin in the future to make it usable! 
+> For now, feel free to fork it and add everything you need!
+
 This is a simple node cli app that send an email to a list of user from a `.csv` file using [Sendgrid](https://sendgrid.com/)
 
 ### installation
